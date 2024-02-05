@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Tourney:wght@100&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  /* background:linear-gradient(10deg, white, purple); */
+  background-color: rgb(31, 30, 30);
+}
+.container h2{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.486);
+    font-size: 3em;
+    margin: 20px;
+    letter-spacing: 17px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.counter {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 180px 0;
+}
+h1 {
+  font-family: "Tourney", sans-serif;
+  font-size: 7em;
+  color: white;
+  text-align: center;
+}
+
+#reset {
+  background-color: rgb(31, 30, 30);
+  border: none;
+  position: relative;
+
+}
+.btn {
+  background-color: rgb(31, 30, 30);
+  border: none;
+}
+.btn-3 {
+  text-align: center;
+}
+i {
+  color: white;
+  font-size: 50px;
+}
+
+i:hover {
+  cursor: pointer;
+  transition: 0.20s ease-in-out;
+  color: black;
+}
+
